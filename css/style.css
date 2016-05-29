@@ -3,6 +3,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     width: 1400px;
+    margin: 0 auto;
     
 }
 .main-header {
@@ -120,4 +121,92 @@ body {
     width: 1px;
     height: 34px;
     background-color: rgba(32, 34, 66, 0.3);
+}
+
+/*~~~ CONTENT-1 ~~~*/
+
+.content-1 {
+    position: relative;
+    min-height: 793px;
+    background: #acbaba url("../img/content-1_bg1.jpg") no-repeat 0 -145px;
+}
+.content-1:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    min-height: 793px;
+    width: 1400px;
+    background: rgba(47, 47, 47, 0.33) url("../img/content-1_img.svg") no-repeat 650px 390px;
+}
+h1 {
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+    top: 230px;
+    margin: 0;
+    text-align: center;
+    width: 1400px;
+    font-size: 48px;
+    line-height: 24px;
+    color: #fff;
+}
+.advantages {
+    position: absolute;
+    top: 310px;
+    margin: 0;
+    width: 1400px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 24px;
+    white-space: pre;
+    color: #fff;
+}
+.domain {
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    margin: 0;
+    margin-left: -236px;
+    padding: 0;
+    font-size: 0;
+    box-shadow: 0 0 0 18px rgba(255, 255, 255, 0.5);
+}
+input[type="text"] {
+    vertical-align: top;
+    width: 227px;
+    padding: 15px 23px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2d2d2d;
+    border: none;
+}
+.domain select {
+    vertical-align: top;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 23px;
+    padding-right: 10px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #2d2d2d; 
+    background-color: #ffe13e;
+    border: none;
+    border-right: 1px solid #fff;
+    min-height: 54px;
+    cursor: pointer;
+}
+input[type="submit"] {
+    vertical-align: top;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff; 
+    background-color: #ffe13e;
+    border: none;
+    cursor: pointer;
 }
