@@ -359,12 +359,15 @@ input[type="submit"] {
 /*~~~ CONTENT-4 ~~~*/
 
 .content-4 {
-    margin: 0 auto;
-    margin-bottom: 80px;
-}
-.row-1 {
+    
     width: 1170px;
     margin: 0 auto;
+    margin-bottom: 80px;
+    padding-left: 115px;
+    padding-right: 115px;
+}
+.row-1 {
+    
     margin-bottom: 70px;
     padding: 0;
     font-size: 0;
@@ -456,4 +459,52 @@ input[type="submit"] {
     color: #696969;
     padding-left: 25px;
     padding-bottom: 25px;
+}
+
+/*~~~ CONTENT-5 ~~~*/
+.content-5 {
+    width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    padding-left: 115px;
+    padding-right: 115px;
+    background-color: #202242;
+    position: relative;
+    
+}
+.content-5 .btn {
+    margin: 0;
+    padding: 30px 50px;
+    border: 3px solid #fff;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.5) inset;
+    text-decoration: none;
+    color: #202242;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700; 
+    background-color: #ffe13e;
+    position: absolute;
+    right: 210px;
+    top: 91px;
+}
+.content-5 h3 {
+    width: 660px;
+    margin: 0;
+    margin-left: 90px;
+    margin-bottom: 20px;
+    padding: 0;
+    padding-top: 95px;
+    font-size: 36px;
+    line-height: 24px;
+    color: #fff;
+}
+.content-5 p {
+    width: 660px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #67687b;
+    margin: 0;
+    margin-left: 90px;
+    margin-bottom: 110px;
+    padding: 0;
 }
