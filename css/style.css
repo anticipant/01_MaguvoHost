@@ -356,11 +356,16 @@ input[type="submit"] {
     left: 100px;
 }
 
-/*~~~ CONTENT-3 ~~~*/
+/*~~~ CONTENT-4 ~~~*/
 
+.content-4 {
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
 .row-1 {
     width: 1170px;
     margin: 0 auto;
+    margin-bottom: 70px;
     padding: 0;
     font-size: 0;
 }
@@ -403,7 +408,7 @@ input[type="submit"] {
     width: 1170px;
     margin: 0 auto;
     padding: 0;
-    font-size: 0;
+    
 }
 .row-2 ul {
     margin: 0;
@@ -411,13 +416,44 @@ input[type="submit"] {
     font-size: 14px;
     line-height: 24px;
     color: #adadad;
+    font-size: 0;
 }
 .row-2 li {
+    position: relative;
     display: inline-block;
     vertical-align: top;
     list-style: none;
     padding: 0;
     margin: 0;
+    margin-right: 30px;
     width: 370px;
     background-color: rgba(250, 249, 249, 0.5);
+}
+.row-2 li:nth-child(3n) {
+    margin: 0;
+    padding: 0;
+    margin-right: 0px;
+}
+.row-2 img {
+    position: absolute;
+    bottom: -50px;
+    right: 20px;
+}
+.row-2 blockquote {
+    font-style: italic;
+    font-size: 14px;
+    color: #a4a4a4;
+    line-height: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.row-2 footer {
+    font-size: 16px;
+    line-height: 24px;
+    color: #696969;
+    padding-left: 25px;
+    padding-bottom: 25px;
 }
